@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(42, 78, 110);
+}
+#CONTENT {
+    position: absolute;
+}
+#WADEJHUDGENS {
+    overflow-x:hidden;
+    width: 100vw;
+}
+
+.Page_Header {
+    color: white;
+    text-align: center;
+    border-bottom: double 3px white;
+    width: 50%;
+    display: inline-block;
+}
+@media screen and (min-width: 701px) {
+    #CONTENT {
+        position: absolute;
+        top: 0;
+        left: 300px;
+        width: calc(100vw - 317px);
+        height: auto;
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width: 700px) {
+    #CONTENT {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: calc(100vw);
+        height: auto;
+        overflow-x: hidden;
+        margin: 0;
+    }
+}

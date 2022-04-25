@@ -1,0 +1,87 @@
+
+
+@media screen and (min-width: 701px) {
+    #NAVBAR_DESKTOP {
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        width: 300px;
+        height: 100%;
+    
+        overflow-y: auto;
+        overflow-x: visible;
+        border-right: solid 1px rgb(255, 255, 255);
+        background-color: rgb(1, 33, 61);
+        z-index: 10;
+    }
+    #NAVBAR_DESKTOP_CONTENT {
+        position: absolute;
+        top: calc(50% - 25%);
+        width: 100%;
+        height: 50%;
+    
+        overflow-y: visible;
+        overflow-x: hidden;
+    
+        float:left;
+    
+        text-align: center;
+    
+        overflow-y: auto;
+        overflow-x: visible;
+    }
+    
+    .Navbar_Desktop_Header {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .Navbar_Desktop_Button {
+        background-color: rgb(0, 12, 12);
+        border: solid 1px rgb(255, 255, 255);
+        width: 90%;
+        height: 50px;
+        white-space: nowrap;
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+    .Navbar_Desktop_Button:hover {
+        background-color: rgb(187, 192, 197);
+        border: solid 1px rgb(0, 0, 0);
+        color: black;
+        cursor: pointer;
+    }
+    .Navbar_Desktop_Button:active {
+        background-color: rgb(0, 12, 12);
+        border: solid 1px rgb(255, 255, 255);
+        color: white;
+    }
+    .Navbar_Desktop_Contact {
+        color: white;
+        white-space: nowrap;
+    }
+    #NAVBAR_DESKTOP_IMG {
+        display: inline-block;
+        width: 60vw;
+        height: 60vw;
+    }
+}
+@media screen and (max-width: 700px) {
+    #NAVBAR_DESKTOP {
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        width: 0px;
+        height: 100%;
+    
+        overflow-y: auto;
+        overflow-x: visible;
+        border-right: solid 1px rgb(255, 255, 255);
+        background-color: rgb(1, 33, 61);
+        z-index: 10;
+    }
+}

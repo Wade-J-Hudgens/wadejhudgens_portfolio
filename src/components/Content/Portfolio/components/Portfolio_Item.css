@@ -1,0 +1,157 @@
+.Portfolio_Item_TryItOut:hover {
+    background-color: rgb(187, 192, 197);
+    border: solid 1px rgb(0, 0, 0);
+    color: black;
+    cursor: pointer;
+}
+.Portfolio_Item_Github:hover {
+    background-color: rgb(187, 192, 197);
+    border: solid 1px rgb(0, 0, 0);
+    color: black;
+    cursor: pointer;
+}
+
+.Portfolio_Item_TryItOut:active {
+    background-color: rgb(0, 12, 12);
+    border: solid 1px rgb(255, 255, 255);
+    color: white;
+}
+.Portfolio_Item_Github:active {
+    background-color: rgb(0, 12, 12);
+    border: solid 1px rgb(255, 255, 255);
+    color: white;
+}
+.Portfolio_Item_TryItOut {
+    position: relative;
+    z-index: 20;
+}
+.Portfolio_Item_Github {
+    position: relative;
+    z-index: 20;
+}
+@media screen and (min-width: 1001px) {
+    .Portfolio_Item {
+        width: 70%;
+        height: auto;
+        background-color: rgba(1, 33, 61, 0.2);
+        border: solid 1px white;
+        margin-bottom: 20px;
+        transition: all 0.5s;
+    }
+    .Portfolio_Item_Header {
+        text-align: center;
+        color: white;
+        border-bottom: solid 1px white;
+        transition: all 0.5s;
+    }
+    .Portfolio_Item_Content_Div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        transition: all 0.5s;
+    }
+    .Portfolio_Item_Content_Image {
+        height: 150px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        transition: all 0.5s;
+    }
+    .Portfolio_Item_Content_P {
+        color: white;
+        transition: all 0.5s;
+    }
+
+    .Portfolio_Item_TryItOut {
+        background-color: rgba(0, 12, 12, 1);
+        width:200px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: solid 1px white;
+        color: white;
+    }
+    .Portfolio_Item_TryItOut_INACTIVE {
+        background-color: rgba(0, 12, 12, 0.5);
+        width:200px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: solid 1px white;
+        color: white;
+    }
+    .Portfolio_Item_Github {
+        background-color: rgba(0, 12, 12, 1);
+        width:200px;
+        height: 50px;
+        line-height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        border: solid 1px white;
+        color: white;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Portfolio_Item {
+        width: calc(100% - 3px);
+        height: auto;
+        background-color: rgba(1, 33, 61, 0.2);
+        border: solid 1px white;
+        margin-bottom: 20px;
+        transition: all 0.5s;
+    }
+    .Portfolio_Item_Header {
+        text-align: center;
+        color: white;
+        border-bottom: solid 1px white;
+        transition: all 0.5s;
+    }
+    .Portfolio_Item_Content_Div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        transition: all 0.5s;
+    }
+    .Portfolio_Item_Content_Image {
+        width: 100%;
+        transition: all 0.5s;
+    }
+    .Portfolio_Item_Content_P {
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        transition: all 0.5s;
+    }
+    .Portfolio_Item_TryItOut {
+        background-color: rgba(0, 12, 12, 1);
+        width:100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border: solid 1px white;
+        color: white;
+    }
+    .Portfolio_Item_TryItOut_INACTIVE {
+        background-color: rgba(0, 12, 12, 0.5);
+        width:100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border: solid 1px white;
+        color: white;
+    }
+    .Portfolio_Item_Github {
+        background-color: rgba(0, 12, 12, 1);
+        width:100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border: solid 1px white;
+        color: white;
+    }
+}
